@@ -22,7 +22,7 @@ namespace Refactoring
                 var container1 = dbClient.InitContainer1();
                 var container2 = dbClient.InitContainer2();
 
-                // RunProcessorMethods(processor, container1, container2, dbClient);
+                RunProcessorMethods(processor, container1, container2, dbClient);
 
                 RunTaskByOptionNo1(processor, container1, container2, dbClient);
             }
