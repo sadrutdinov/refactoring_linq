@@ -1,0 +1,37 @@
+﻿[
+  {
+    "Weight": 60,
+    "Height": 190,
+    "FirstName": "Marie",
+    "LastName": "Little",
+    "University": "BSTU"
+  },
+  {
+    "Weight": 54,
+    "Height": 172,
+    "FirstName": "Sue",
+    "LastName": "Jackson",
+    "University": "BSTU"
+  },
+  {
+    "Weight": 54,
+    "Height": 181,
+    "FirstName": "Lance",
+    "LastName": "Knight",
+    "University": "BSU"
+  },
+  {
+    "Weight": 78,
+    "Height": 184,
+    "FirstName": "Lance",
+    "LastName": "Stepth",
+    "University": "BSU"
+  },
+  {
+    "Weight": 81,
+    "Height": 184,
+    "FirstName": "Wesley",
+    "LastName": "Jackson",
+    "University": "BSTU"
+  }
+]

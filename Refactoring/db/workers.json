@@ -1,0 +1,23 @@
+﻿[
+  {
+    "Weight": 67,
+    "Height": 190,
+    "FirstName": "Douglas",
+    "LastName": "Collins",
+    "Salary": 578.4
+  },
+  {
+    "Weight": 67,
+    "Height": 190,
+    "FirstName": "Lynn",
+    "LastName": "Gibson",
+    "Salary": 976.5
+  },
+  {
+    "Weight": 55,
+    "Height": 172,
+    "FirstName": "Olivi",
+    "LastName": "Smith",
+    "Salary": 493
+  }
+]
