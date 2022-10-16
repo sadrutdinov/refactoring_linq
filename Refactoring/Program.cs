@@ -10,8 +10,6 @@ namespace Refactoring
 {
     class Program
     {
-        
-        
         static void Main()
         {
             try
@@ -24,7 +22,7 @@ namespace Refactoring
 
                 RunProcessorMethods(processor, container1, container2, dbClient);
 
-                RunTaskByOptionNo1(processor, container1, container2, dbClient);
+                RunTaskByOptionNo1(processor, container1, container2);
             }
             catch (Exception ex)
             {
@@ -96,19 +94,13 @@ namespace Refactoring
 
             processor.PrintContains(listOfContainers, workers[0]);
         }
-        
+
         private static void RunTaskByOptionNo1(Processor processor, HumanContainer<Human> container1,
-            HumanContainer<Human> container2, IDbClient dbClient)
+            HumanContainer<Human> container2)
         {
             // создать массив объектов CollectionType, запросы – найти коллекции размера n;
             // найти максимальную и минимальную коллекцию в массиве по количеству элементов.
             //     Обобщенная коллекция – LinkedList<T>
-
-            var students = dbClient.GetAllStudents();
-            var workers = dbClient.GetAllWorkers();
-
-            container1.Remove(workers[1]);
-            container1.Remove(students[0]);
 
             var listOfContainers = new LinkedList<HumanContainer<Human>>();
             listOfContainers.AddLast(container1);
